@@ -1,0 +1,39 @@
+.drop-up{
+    position: relative;
+    display: inline-block;
+}
+
+.content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.content a:hover{
+    background-color: bisque;
+}
+
+.drop-up:hover .content{
+    display: block;
+}
+
+.ribbon{
+    height: 50px;
+    width: 500px;
+    background-color: #FDF8E3;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.ribbon:hover{
+    display: none;
+}
